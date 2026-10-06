@@ -38,3 +38,16 @@ Ubuntu 22.04 가상 서버를 웹에서 신청하고 관리합니다.
 ### GSMSV v2
 
 v1을 운영하며 모인 요청과 개선점을 바탕으로 v2를 개발 중에 있습니다.
+
+## 지금 쓰는 저장소
+
+| 구분 | 저장소 | 내용 |
+|---|---|---|
+| v1 (운영 중) | [GSM-SV](https://github.com/GSMSV/GSM-SV) | 백엔드·서버리스 |
+| v1 (운영 중) | [frontend](https://github.com/GSMSV/frontend) | 웹 |
+| v2 (개발 중) | [GSMSV-Server-V2](https://github.com/GSMSV/GSMSV-Server-V2) | API 서버 (Kotlin) |
+| v2 (개발 중) | [GSMSV-Client-V2](https://github.com/GSMSV/GSMSV-Client-V2) | 웹 콘솔 (React) |
+| v2 (개발 중) | [GSMSV-Infra-V2](https://github.com/GSMSV/GSMSV-Infra-V2) | Proxmox·k3s를 다루는 실행 엔진 (Go) |
+| v2 (개발 중) | [GSMSV-Contracts-V2](https://github.com/GSMSV/GSMSV-Contracts-V2) | 저장소끼리 함께 쓰는 약속 (API 명세, 자원 이름 규칙) |
+
+다 쓴 저장소는 지우지 않고 보관(archive)하며, 이 목록은 기수가 바뀔 때 갱신합니다.
